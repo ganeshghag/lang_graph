@@ -5,6 +5,10 @@ git add .
 git commit -m "First commit"
 
 
-git remote add origin REMOTE-URL
+git remote add origin https://github.com/ganeshghag/lang_graph.git
 git remote -v
+  git pull origin main
 git push origin main
+
+
+pip3 freeze > requirements.txt  # Python3
